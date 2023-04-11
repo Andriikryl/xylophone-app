@@ -1,0 +1,36 @@
+
+.xylophone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.note-button{
+    padding:10px;
+    height: 200px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 5px;
+    width: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.note-button:hover{
+    background-color: #2b6a2b;
+    transition: all 0.5s ease-in-out;
+}
+
+.circle{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
